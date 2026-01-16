@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: nl-house-price-api
+    env: python
+    buildCommand: pip install -r app/requirements.txt
+    startCommand: PYTHONPATH=. uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
+
+  - type: web
+    name: nl-house-price-frontend
+    env: static
+    buildCommand: cd frontend && npm install && npm run build
+    staticPublishPath: frontend/dist
