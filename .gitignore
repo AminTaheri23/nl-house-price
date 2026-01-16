@@ -42,12 +42,6 @@ ENV/
 .DS_Store
 
 
-# Model files
-*.h5
-*.pkl
-*.joblib
-*.model
-
 # Logs
 *.log
 logs/

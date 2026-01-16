@@ -1,0 +1,39 @@
+======================================================================
+BEST LIGHTGBM MODEL (TOP 12 FEATURES) - ST. JOHN'S HOUSE PRICES
+======================================================================
+
+Training Date: 2026-01-15T22:35:40.456828
+
+Model Parameters:
+----------------------------------------
+  n_estimators: 400
+  max_depth: 7
+  learning_rate: 0.03
+  reg_alpha: 0.5
+  reg_lambda: 0.5
+  min_child_samples: 15
+  subsample: 0.8
+  colsample_bytree: 0.8
+  random_state: 42
+  verbose: -1
+
+Performance Metrics:
+----------------------------------------
+  R² Score:  0.2182 (+/- 0.1524)
+  RMSE:      $238,849.05
+  MAE:       $136,582.88
+
+Top 12 Features Used:
+----------------------------------------
+  1. property-baths
+  2. Square Footage
+  3. property-sqft
+  4. longitude
+  5. latitude
+  6. Heating
+  7. Features
+  8. Parking
+  9. Flooring
+  10. Exterior
+  11. Parking Features
+  12. addressLocality

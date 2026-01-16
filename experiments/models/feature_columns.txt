@@ -1,0 +1,23 @@
+addressLocality
+latitude
+longitude
+property-beds
+property-baths
+property-sqft
+Basement
+Bath
+Exterior
+Exterior Features
+Features
+Fireplace
+Heating
+Partial Bathroom
+Property Type
+Roof
+Sewer
+Square Footage
+Type
+Parking
+Flooring
+Parking Features
+Fireplace Features

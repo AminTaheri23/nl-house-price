@@ -1,0 +1,12 @@
+property-baths
+Square Footage
+property-sqft
+longitude
+latitude
+Heating
+Features
+Parking
+Flooring
+Exterior
+Parking Features
+addressLocality
