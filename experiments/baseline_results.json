@@ -1,0 +1,71 @@
+{
+  "experiment": "baseline",
+  "timestamp": "2026-01-15T21:21:54.806278",
+  "description": "Full dataset ML pipeline",
+  "original_shape": [
+    10976,
+    396
+  ],
+  "cleaned_shape": [
+    10204,
+    396
+  ],
+  "features": [
+    "latitude",
+    "longitude",
+    "property-beds",
+    "property-baths",
+    "property-sqft",
+    "house_age",
+    "log_sqft"
+  ],
+  "model_results": {
+    "Random Forest": {
+      "RMSE": 192011.45456840307,
+      "MAE": 130565.72984414763,
+      "R2": 0.6557791329290538,
+      "CV_R2_Mean": 0.6686336110150928,
+      "CV_R2_Std": 0.027578599090176792
+    },
+    "LightGBM": {
+      "RMSE": 190550.0243816207,
+      "MAE": 132303.82973061825,
+      "R2": 0.6609990334985838,
+      "CV_R2_Mean": 0.6690299536504705,
+      "CV_R2_Std": 0.024489660826171697
+    },
+    "XGBoost": {
+      "RMSE": 188313.72658150416,
+      "MAE": 130404.01917909419,
+      "R2": 0.6689093818715846,
+      "CV_R2_Mean": 0.6638348300924283,
+      "CV_R2_Std": 0.026936383001342618
+    }
+  },
+  "feature_importance": {
+    "Random Forest": {
+      "latitude": 0.20486076223605018,
+      "longitude": 0.2664890024800387,
+      "property-beds": 0.03450316207015628,
+      "property-baths": 0.4433721067053425,
+      "property-sqft": 0.02544295070958276,
+      "house_age": 0.0253320157988295
+    },
+    "LightGBM": {
+      "latitude": "2010",
+      "longitude": "2132",
+      "property-beds": "436",
+      "property-baths": "512",
+      "property-sqft": "614",
+      "house_age": "250"
+    },
+    "XGBoost": {
+      "latitude": "0.04611294",
+      "longitude": "0.10321367",
+      "property-beds": "0.043890134",
+      "property-baths": "0.7606083",
+      "property-sqft": "0.046174936",
+      "house_age": "0.0"
+    }
+  }
+}
