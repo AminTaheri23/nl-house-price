@@ -46,6 +46,7 @@ app.add_middleware(
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "https://nl-house-price-frontend.onrender.com",
+        "https://nl-house-price-1.onrender.com",
         "https://*.onrender.com"
     ],
     allow_credentials=True,

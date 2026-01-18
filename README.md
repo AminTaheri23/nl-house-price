@@ -101,7 +101,8 @@ curl -X POST http://localhost:8000/api/predict \
 1. Push to GitHub
 2. Create Render web service for API:
    - Build command: `pip install -r app/requirements.txt`
-   - Start command: `uvicorn api.main:app --host 0.0.0.0 --port $PORT`
+   - Start command: `uvicorn app.api.main:app --host 0.0.0.0 --port $PORT`
+   - Root directory: (leave empty - defaults to repo root)
 3. Create Render static site for frontend:
    - Build command: `cd frontend && npm install && npm run build`
    - Publish path: `frontend/dist`
